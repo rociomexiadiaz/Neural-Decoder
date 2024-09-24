@@ -3,7 +3,7 @@
 % the relevant modelParameters, and then calls the function
 % "positionEstimator" to decode the trajectory. 
 
-function RMSE = testFunction_for_students_MTb(teamName)
+function RMSE = testFunction(teamName)
 trajectories_x = cell(1,50);
 trajectories_y = cell(1,50);
 
