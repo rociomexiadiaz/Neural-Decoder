@@ -12,4 +12,5 @@ PCA was used to reduce the dimensionality of firing rates.
 ### Position Estimator
 The positionEstimator.mat file takes a training data and, using the matrix of 800 vectors obtained from the knn algorithm and finding the smallest euclidean distance, estimates the angle in which the arm is reaching towards.  
 Now using the angle defined, the corresponding linear regression model is maped to give the hand position at each 20ms time window.  
-### 
+### Test Function
+The testFunction.mat file takes unseen monkey data, in the same format as the data described above and calculates its performance metric- RMSE.
